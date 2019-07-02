@@ -1,0 +1,22 @@
+/*
+ Localizable.strings
+ FrRadio
+ 
+ Created by Admin on 3/22/18.
+ Copyright © 2018 HCM. All rights reserved.
+ */
+
+// https://medium.com/lean-localization/ios-localization-tutorial-938231f9f881
+
+"kSelectYourService" = "SELECT SOURCE SERVICE";
+"kSelectDestination" = "SELECT DESTINATION SERVICE";
+
+"kSelectPlaylists" = "SELECT PLAYLISTS";
+"kSelectArtists" = "SELECT ARTISTS";
+"kSelectAlbums" = "SELECT ALBUMS";
+
+"kPlaylists" = "Playlists";
+"kArtists" = "Artists";
+"kAlbums" = "Albums";
+
+"kStartTransfer" = "Start Transfer";

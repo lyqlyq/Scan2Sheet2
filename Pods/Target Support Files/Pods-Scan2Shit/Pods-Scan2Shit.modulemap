@@ -1,0 +1,6 @@
+module Pods_Scan2Shit {
+  umbrella header "Pods-Scan2Shit-umbrella.h"
+
+  export *
+  module * { export * }
+}

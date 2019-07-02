@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/Pods-Scan2Shit/Pods-Scan2Shit-resources.sh
+${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle
+${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle
+${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle

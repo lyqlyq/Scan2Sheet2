@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MontserratAlternates-Regular.ttf">
+            <string>MontserratAlternates-Regular</string>
+        </array>
+        <array key="MontserratAlternates-SemiBold.ttf">
+            <string>MontserratAlternates-SemiBold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NewSpreadSheetViewController" customModule="Scan2Sheet" customModuleProvider="target">
+            <connections>
+                <outlet property="nameTextField" destination="QAd-zm-EEP" id="Tyd-wv-jRC"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="374" height="226"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="New Spereadsheet" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="B4f-eO-SbW">
+                    <rect key="frame" x="108" y="24" width="158" height="20"/>
+                    <fontDescription key="fontDescription" name="MontserratAlternates-SemiBold" family="Montserrat Alternates SemiBold" pointSize="16"/>
+                    <color key="textColor" red="0.098039215686274508" green="0.098039215686274508" blue="0.098039215686274508" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QAd-zm-EEP">
+                    <rect key="frame" x="24" y="68" width="326" height="40"/>
+                    <color key="backgroundColor" red="0.94901960784313721" green="0.94901960784313721" blue="0.94901960784313721" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <color key="tintColor" red="0.058823529411764705" green="0.61568627450980395" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="lQX-mk-5hC"/>
+                    </constraints>
+                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <fontDescription key="fontDescription" name="MontserratAlternates-Regular" family="Montserrat Alternates" pointSize="14"/>
+                    <textInputTraits key="textInputTraits"/>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4IX-om-aD0">
+                    <rect key="frame" x="0.0" y="176" width="187" height="50"/>
+                    <fontDescription key="fontDescription" name="MontserratAlternates-Regular" family="Montserrat Alternates" pointSize="14"/>
+                    <state key="normal" title="Cancel">
+                        <color key="titleColor" red="0.29803921568627451" green="0.29803921568627451" blue="0.29803921568627451" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cancelAction:" destination="-1" eventType="touchUpInside" id="9tS-cq-F6T"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MUp-7G-zSJ">
+                    <rect key="frame" x="0.0" y="175.5" width="374" height="0.5"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="0.5" id="1ZT-Af-LEk"/>
+                    </constraints>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SUB-4N-1rZ">
+                    <rect key="frame" x="187" y="176" width="0.5" height="50"/>
+                    <color key="backgroundColor" red="0.80000000000000004" green="0.80000000000000004" blue="0.80000000000000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="Xkv-aN-E1O"/>
+                        <constraint firstAttribute="height" constant="50" id="duW-wM-xjk"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lyu-SY-mdl">
+                    <rect key="frame" x="187.5" y="176" width="186.5" height="50"/>
+                    <fontDescription key="fontDescription" name="MontserratAlternates-Regular" family="Montserrat Alternates" pointSize="14"/>
+                    <state key="normal" title="Create">
+                        <color key="titleColor" red="0.058823529411764705" green="0.61568627450980395" blue="0.3411764705882353" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="createAction:" destination="-1" eventType="touchUpInside" id="spt-Fj-wlu"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="4IX-om-aD0" firstAttribute="top" secondItem="MUp-7G-zSJ" secondAttribute="bottom" id="4d9-z3-fmz"/>
+                <constraint firstItem="SUB-4N-1rZ" firstAttribute="centerX" secondItem="MUp-7G-zSJ" secondAttribute="centerX" id="950-70-epm"/>
+                <constraint firstItem="lyu-SY-mdl" firstAttribute="top" secondItem="MUp-7G-zSJ" secondAttribute="bottom" id="Fgb-5u-JM3"/>
+                <constraint firstItem="fnl-2z-Ty3" firstAttribute="trailing" secondItem="lyu-SY-mdl" secondAttribute="trailing" id="MQt-8H-N5l"/>
+                <constraint firstItem="QAd-zm-EEP" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="24" id="NBe-nV-YAL"/>
+                <constraint firstItem="MUp-7G-zSJ" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="Oub-Rj-hNm"/>
+                <constraint firstItem="lyu-SY-mdl" firstAttribute="leading" secondItem="SUB-4N-1rZ" secondAttribute="trailing" id="RsK-U2-skn"/>
+                <constraint firstItem="QAd-zm-EEP" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="SUV-0K-mZN"/>
+                <constraint firstItem="MUp-7G-zSJ" firstAttribute="trailing" secondItem="fnl-2z-Ty3" secondAttribute="trailing" id="SeN-UG-1Ia"/>
+                <constraint firstItem="SUB-4N-1rZ" firstAttribute="top" secondItem="MUp-7G-zSJ" secondAttribute="bottom" id="TWJ-Yz-2CF"/>
+                <constraint firstItem="4IX-om-aD0" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" id="a8U-H0-eET"/>
+                <constraint firstItem="B4f-eO-SbW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="24" id="bGs-8q-Ogx"/>
+                <constraint firstItem="B4f-eO-SbW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="bnf-rZ-vnF"/>
+                <constraint firstAttribute="bottom" secondItem="SUB-4N-1rZ" secondAttribute="bottom" id="gJK-dt-MoW"/>
+                <constraint firstAttribute="bottom" secondItem="lyu-SY-mdl" secondAttribute="bottom" id="km0-er-cCk"/>
+                <constraint firstItem="SUB-4N-1rZ" firstAttribute="leading" secondItem="4IX-om-aD0" secondAttribute="trailing" id="ove-48-bw7"/>
+                <constraint firstAttribute="bottom" secondItem="4IX-om-aD0" secondAttribute="bottom" id="rwq-19-VAD"/>
+                <constraint firstItem="QAd-zm-EEP" firstAttribute="top" secondItem="B4f-eO-SbW" secondAttribute="bottom" constant="24" id="vbZ-Cv-U2l"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="fnl-2z-Ty3"/>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                    <integer key="value" value="10"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
+            <point key="canvasLocation" x="102.89855072463769" y="-130.58035714285714"/>
+        </view>
+    </objects>
+</document>

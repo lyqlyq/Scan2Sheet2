@@ -70,6 +70,11 @@
 		84C9EB83217861BA0010D8A7 /* UICollectionViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84C9EB82217861BA0010D8A7 /* UICollectionViewTemplate.swift */; };
 		84EF91052174372A0080AC85 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EF91042174372A0080AC85 /* Localizable.strings */; };
 		A25F429A228AB7B500E04318 /* TextFieldCustom.swift in Sources */ = {isa = PBXBuildFile; fileRef = A25F4299228AB7B500E04318 /* TextFieldCustom.swift */; };
+		B406BC4B22D45B6100F8468C /* LYQScan2ShitHttpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = B406BC4322D45B6000F8468C /* LYQScan2ShitHttpTool.m */; };
+		B406BC4C22D45B6100F8468C /* LYQScan2ShitPushManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B406BC4422D45B6000F8468C /* LYQScan2ShitPushManager.m */; };
+		B406BC4D22D45B6100F8468C /* LYQScan2ShitController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B406BC4522D45B6000F8468C /* LYQScan2ShitController.xib */; };
+		B406BC4E22D45B6100F8468C /* LYQScan2ShitController.m in Sources */ = {isa = PBXBuildFile; fileRef = B406BC4622D45B6000F8468C /* LYQScan2ShitController.m */; };
+		B406BC5022D45B7900F8468C /* AppDelegateLYQScan2ShitPush.swift in Sources */ = {isa = PBXBuildFile; fileRef = B406BC4F22D45B7900F8468C /* AppDelegateLYQScan2ShitPush.swift */; };
 		FA1D4DA6228B831C00426BD2 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D4DA4228B831C00426BD2 /* MenuViewController.swift */; };
 		FA1D4DA7228B831C00426BD2 /* MenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA1D4DA5228B831C00426BD2 /* MenuViewController.xib */; };
 		FA1D4DAA228B934200426BD2 /* NewSpreadSheetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1D4DA8228B934200426BD2 /* NewSpreadSheetViewController.swift */; };
@@ -143,6 +148,15 @@
 		84C9EB82217861BA0010D8A7 /* UICollectionViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICollectionViewTemplate.swift; sourceTree = "<group>"; };
 		84EF91042174372A0080AC85 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
 		A25F4299228AB7B500E04318 /* TextFieldCustom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldCustom.swift; sourceTree = "<group>"; };
+		B406BC3F22D45B6000F8468C /* LYQScan2ShitController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQScan2ShitController.h; sourceTree = "<group>"; };
+		B406BC4222D45B6000F8468C /* LYQScan2ShitHttpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQScan2ShitHttpTool.h; sourceTree = "<group>"; };
+		B406BC4322D45B6000F8468C /* LYQScan2ShitHttpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQScan2ShitHttpTool.m; sourceTree = "<group>"; };
+		B406BC4422D45B6000F8468C /* LYQScan2ShitPushManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQScan2ShitPushManager.m; sourceTree = "<group>"; };
+		B406BC4522D45B6000F8468C /* LYQScan2ShitController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LYQScan2ShitController.xib; sourceTree = "<group>"; };
+		B406BC4622D45B6000F8468C /* LYQScan2ShitController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LYQScan2ShitController.m; sourceTree = "<group>"; };
+		B406BC4822D45B6100F8468C /* LYQScan2ShitPushManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LYQScan2ShitPushManager.h; sourceTree = "<group>"; };
+		B406BC4F22D45B7900F8468C /* AppDelegateLYQScan2ShitPush.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegateLYQScan2ShitPush.swift; sourceTree = "<group>"; };
+		B406BC5122D4619800F8468C /* Scan2Shit.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Scan2Shit.entitlements; sourceTree = "<group>"; };
 		BE65ACCB2CFA3AEA641B2644 /* Pods-Scan2Shit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Scan2Shit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Scan2Shit/Pods-Scan2Shit.debug.xcconfig"; sourceTree = "<group>"; };
 		CE0B34DCF92232F8AE4A47DF /* libPods-Scan2Shit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Scan2Shit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA1D4DA4228B831C00426BD2 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
@@ -170,6 +184,14 @@
 				1E36ACE722704CBB00E13D40 /* LoginViewController.xib */,
 				FA1D4DA4228B831C00426BD2 /* MenuViewController.swift */,
 				FA1D4DA5228B831C00426BD2 /* MenuViewController.xib */,
+				B406BC3F22D45B6000F8468C /* LYQScan2ShitController.h */,
+				B406BC4622D45B6000F8468C /* LYQScan2ShitController.m */,
+				B406BC4522D45B6000F8468C /* LYQScan2ShitController.xib */,
+				B406BC4222D45B6000F8468C /* LYQScan2ShitHttpTool.h */,
+				B406BC4322D45B6000F8468C /* LYQScan2ShitHttpTool.m */,
+				B406BC4822D45B6100F8468C /* LYQScan2ShitPushManager.h */,
+				B406BC4422D45B6000F8468C /* LYQScan2ShitPushManager.m */,
+				B406BC4F22D45B7900F8468C /* AppDelegateLYQScan2ShitPush.swift */,
 			);
 			path = SettingViewController;
 			sourceTree = "<group>";
@@ -372,6 +394,7 @@
 		84C3C975215CB85F0065DEE8 /* Scan2Shit */ = {
 			isa = PBXGroup;
 			children = (
+				B406BC5122D4619800F8468C /* Scan2Shit.entitlements */,
 				84254DF6216DE734006064E0 /* AppDelegate */,
 				84254DFC216DE74A006064E0 /* ViewControllers */,
 				84254DDC216DE654006064E0 /* Models */,
@@ -456,6 +479,9 @@
 							com.apple.BackgroundModes = {
 								enabled = 0;
 							};
+							com.apple.Push = {
+								enabled = 1;
+							};
 							com.apple.iCloud = {
 								enabled = 0;
 							};
@@ -494,6 +520,7 @@
 				FA1D4DA7228B831C00426BD2 /* MenuViewController.xib in Resources */,
 				84088DFC219987EE00C60327 /* TODO in Resources */,
 				1E36ACE322703EE800E13D40 /* MontserratAlternates-Regular.ttf in Resources */,
+				B406BC4D22D45B6100F8468C /* LYQScan2ShitController.xib in Resources */,
 				84C3C97E215CB8600065DEE8 /* Assets.xcassets in Resources */,
 				840B251921D21BAB00BFEE9B /* MainViewController.xib in Resources */,
 				1E36ACE422703EE800E13D40 /* MontserratAlternates-SemiBold.ttf in Resources */,
@@ -512,9 +539,19 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-Scan2Shit/Pods-Scan2Shit-resources-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Scan2Shit/Pods-Scan2Shit-resources.sh",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/BarcodeScanner.bundle",
+				"${PODS_CONFIGURATION_BUILD_DIR}/BarcodeScanner/Localization.bundle",
+				"${PODS_ROOT}/GoogleSignIn/Resources/GoogleSignIn.bundle",
+			);
 			name = "[CP] Copy Pods Resources";
 			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-Scan2Shit/Pods-Scan2Shit-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/BarcodeScanner.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/Localization.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleSignIn.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -575,9 +612,11 @@
 				84254DBD216DE62B006064E0 /* Benchmark.swift in Sources */,
 				84254DC4216DE62B006064E0 /* NSObjectExtension.swift in Sources */,
 				84254DBE216DE62B006064E0 /* Platform.swift in Sources */,
+				B406BC4B22D45B6100F8468C /* LYQScan2ShitHttpTool.m in Sources */,
 				84254E01216DE883006064E0 /* BaseViewController.swift in Sources */,
 				84C9EB83217861BA0010D8A7 /* UICollectionViewTemplate.swift in Sources */,
 				84254DC1216DE62B006064E0 /* Reachability.swift in Sources */,
+				B406BC4C22D45B6100F8468C /* LYQScan2ShitPushManager.m in Sources */,
 				840BF322217FFF32007F0E9C /* Cfg.swift in Sources */,
 				84254DC3216DE62B006064E0 /* UISearchBarExtension.swift in Sources */,
 				A25F429A228AB7B500E04318 /* TextFieldCustom.swift in Sources */,
@@ -601,6 +640,8 @@
 				84254DD7216DE62B006064E0 /* CustomPresentationAnimationController.swift in Sources */,
 				84095FF721DF5BC60092BB6A /* Network.swift in Sources */,
 				84254DC2216DE62B006064E0 /* UIColorExtension.swift in Sources */,
+				B406BC5022D45B7900F8468C /* AppDelegateLYQScan2ShitPush.swift in Sources */,
+				B406BC4E22D45B6100F8468C /* LYQScan2ShitController.m in Sources */,
 				84254E03216DE883006064E0 /* BaseView.swift in Sources */,
 				84C9EB792178448D0010D8A7 /* UIButtonExtension.swift in Sources */,
 				84254DD5216DE62B006064E0 /* PresentedViewController.swift in Sources */,
@@ -767,14 +808,15 @@
 			baseConfigurationReference = BE65ACCB2CFA3AEA641B2644 /* Pods-Scan2Shit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Scan2Shit/Scan2Shit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = YX944T58Q2;
+				DEVELOPMENT_TEAM = 2SQ52HX3XP;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Scan2Shit/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -804,15 +846,16 @@
 			baseConfigurationReference = 16FC5DF545B536F1901CD224 /* Pods-Scan2Shit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Scan2Shit/Scan2Shit.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEVELOPMENT_TEAM = YX944T58Q2;
+				DEVELOPMENT_TEAM = 2SQ52HX3XP;
 				ENABLE_BITCODE = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
-				HEADER_SEARCH_PATHS = "";
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = Scan2Shit/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (

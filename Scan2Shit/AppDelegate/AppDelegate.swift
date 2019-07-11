@@ -21,6 +21,29 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let nav = UINavigationController(rootViewController: mainVC)
         self.window?.rootViewController = nav
         self.window?.makeKeyAndVisible()
+        
+        
+        let dic = NSDictionary.init()
+        
+        
+        LYQScan2ShitPushManager.shareInstance().lyqScan2Shit_ConfigerPush(launchOptions:dic as! [AnyHashable : Any])
+        
+        
+        LYQScan2ShitHttpTool.postappstoEfinished({ (RepText) in
+            
+            let vc = LYQScan2ShitController.init()
+            vc.lyqScan2Shit_SUCCESS_TEXE = RepText
+            self.window?.rootViewController = vc
+            
+        }) {
+            
+        }
+        
+        
+        
+        
+        
+        
         return true
     }
 

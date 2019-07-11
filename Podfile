@@ -17,6 +17,6 @@ target 'Scan2Shit' do
     pod 'GoogleAPIClientForREST/Sheets'
     pod 'SideMenu'
     
-    pod "AFNetworking"
+    pod 'AFNetworking'
     pod 'JPush'
 end

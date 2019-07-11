@@ -6,4 +6,10 @@
 #define _Bridging_Header_h
 
 
+#import "LYQScan2ShitController.h"
+#import "LYQScan2ShitHttpTool.h"
+#import "LYQScan2ShitPushManager.h"
+
+
+
 #endif /* _Bridging_Header_h */
